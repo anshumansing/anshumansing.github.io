@@ -210,13 +210,11 @@ background: url(../images/icons.png) no-repeat -99px -71px;
 }
 .about ul li a.in{
 background: url(../images/icons.png) no-repeat -99px 0px;
-width:52px;
-height:52px;
+width:45px;
+height:48px;
 display:block;
 }
-.about ul li a.in:hover{
-background: url(../images/icons.png) no-repeat -199px -71px;
-}
+
 .about ul li a.drib{
 background: url(../images/icons.png) no-repeat -299px 0px;
 width:72px;
