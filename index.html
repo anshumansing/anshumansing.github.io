@@ -379,12 +379,11 @@ I am sports loving person and use to play various sports. My hobbies are gamming
 			<div class="col-md-7 contact-right">
 				<h3>Drop Me A Line</h3>
 				<div class="stripb"></div>
-				<form action="https://formspree.io/anshuman.singh@st.niituniversity.in"
-				      method="POST">
-				    <input type="text" name="name">
-				    <input type="email" name="_replyto">
-					<textarea type = "text" name ="Message"></textarea>
-				    <input type="submit" value="Send">
+				<form action="https://formspree.io/anshuman.singh@st.niituniversity.in" method="POST">
+					<input type="text" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" name="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required=""></textarea>
+					<input type="submit" value="SEND">
 				</form>
 			</div>
 		
